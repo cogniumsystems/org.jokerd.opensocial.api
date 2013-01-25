@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>org.jokerd.opensocial</groupId>
+        <artifactId>org.jokerd.opensocial.poms</artifactId>
+        <version>0.1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.jokerd.opensocial</groupId>
+    <artifactId>org.jokerd.opensocial.api</artifactId>
+    <version>0.1.0</version>
+    <packaging>bundle</packaging>
+    <name>${project.artifactId}</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.ubimix.commons</groupId>
+            <artifactId>org.ubimix.commons.rpc</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ubimix.commons</groupId>
+            <artifactId>org.ubimix.commons.events</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ubimix.commons</groupId>
+            <artifactId>org.ubimix.commons.iterator</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+    </dependencies>
+</project>
