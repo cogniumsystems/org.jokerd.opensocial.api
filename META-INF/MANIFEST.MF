@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.jokerd.opensocial.api
+Bundle-SymbolicName: org.jokerd.opensocial.api
+Bundle-Version: 0.1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.jokerd.opensocial.api.events;version="0.1.0",
+ org.jokerd.opensocial.api.model;version="0.1.0",
+ org.jokerd.opensocial.api.model.ext;version="0.1.0"
+Import-Package: org.ubimix.commons.events;version="1.2.1",
+ org.ubimix.commons.events.calls;version="1.2.1",
+ org.ubimix.commons.events.utils;version="1.2.1",
+ org.ubimix.commons.json;version="1.2.1",
+ org.ubimix.commons.json.ext;version="1.2.1",
+ org.ubimix.commons.rpc;version="1.2.1"
